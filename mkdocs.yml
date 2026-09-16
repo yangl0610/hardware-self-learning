@@ -1,7 +1,8 @@
+site_url: https://yangl0610.github.io/hardware-self-learning/
 site_name: 硬件自学指南
 site_description: 浙江大学 RM 战队 · 面向零基础的硬件学习指南
 site_author: 浙江大学 RM 战队 26 赛季硬件组
-copyright: 浙江大学 RM 战队 · 内部培训资料 · 禁止外传
+copyright: 浙江大学 RM 战队 · 硬件学习资料
 theme:
   name: material
   language: zh

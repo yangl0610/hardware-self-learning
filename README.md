@@ -2,7 +2,9 @@
 
 浙江大学 RM 战队硬件速成教材的 Markdown 与网站版本。24 章、6 个模块，支持中文搜索、公式、代码高亮、明暗主题和移动端阅读。
 
-**内部培训资料，禁止外传。仓库应保持私有；公开部署需先取得教材授权。**
+本网页版已获项目维护者授权公开部署。
+
+在线阅读：https://yangl0610.github.io/hardware-self-learning/
 
 ## 本地阅读
 
@@ -22,7 +24,7 @@ mkdocs serve -a 127.0.0.1:8000
 python3 -m http.server 8000 --directory site --bind 127.0.0.1
 ```
 
-`site/` 是完整构建产物，可放在有访问控制的内部静态服务上。公式渲染资源随项目提供，不依赖 CDN。当前未启用公开 GitHub Pages。
+`site/` 是完整构建产物。公式渲染资源随项目提供，不依赖 CDN。推送到 `main` 后，GitHub Actions 会构建、校验并自动部署到 GitHub Pages；拉取请求仅进行构建校验。
 
 ## 内容维护
 
