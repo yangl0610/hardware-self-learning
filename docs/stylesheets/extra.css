@@ -1,0 +1,17 @@
+:root { --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+.md-grid { max-width: 1480px; }
+.md-typeset { font-size: .82rem; line-height: 1.85; }
+.md-typeset h1 { font-weight: 750; letter-spacing: -.035em; color: var(--md-default-fg-color); }
+.md-typeset h2 { font-weight: 650; margin-top: 2em; }
+.md-header { box-shadow: none; border-bottom: 1px solid #ffffff22; }
+.hero { padding: 2.2rem 2rem; margin-bottom: 2rem; border: 1px solid #12877830; border-radius: 18px; background: linear-gradient(125deg, #00968812, #42a5f50a); }
+.hero .eyebrow { color: var(--md-primary-fg-color); font-size: .66rem; font-weight: 700; letter-spacing: .16em; }
+.hero h1 { font-size: 2.2rem; margin: .4em 0; }
+.hero .lead { color: var(--md-default-fg-color--light); font-size: .96rem; max-width: 35em; }
+.metrics { display: flex; flex-wrap: wrap; gap: 2rem; padding-top: .8rem; font-size: .72rem; color: var(--md-default-fg-color--light); }
+.metrics strong { font-size: 1.1rem; color: var(--md-primary-fg-color); margin-right: .3rem; }
+.md-typeset .grid.cards > ul > li { border-radius: 12px; padding: 1.15rem; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset .arithmatex { overflow-x: auto; overflow-y: hidden; }
+.md-typeset .admonition { font-size: .76rem; }
+@media (max-width: 600px) { .hero { padding: 1.2rem; } .hero h1 { font-size: 1.65rem; } .metrics { gap: 1rem; } }
